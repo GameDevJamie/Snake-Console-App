@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\documents\projects\snake console app\snake console app\CSnake.h(73): warning C4018: '>=': signed/unsigned mismatch
+main.cpp(22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  2 of 985 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Snake Console App.vcxproj -> D:\Documents\Projects\Snake Console App\Release\Snake Console App.exe
+  Snake Console App.vcxproj -> D:\Documents\Projects\Snake Console App\Release\Snake Console App.pdb (Full PDB)
