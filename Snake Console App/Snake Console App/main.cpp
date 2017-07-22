@@ -142,7 +142,7 @@ void LoadLevelSelect()
 	cout << "2: Level 2" << endl;
 	cout << "3: Level 3" << endl;
 	cout << "4: Level 4" << endl;
-	cout << "5: All Levels" << endl;
+	cout << "5: All Levels (AI)" << endl;
 	cout << endl;
 	cout << "6: Controls" << endl;
 }
@@ -198,8 +198,8 @@ void RunLevel(std::string levelName)
 					//Display Text
 					if (snakeGame->IsAiModeActive()) cout << "AI Mode: ON " << endl;
 					else cout << "AI Mode: Off" << endl;
-					cout << "Score: " << snakeGame->GetScore() << endl;
-					cout << "Bonus: " << snakeGame->GetBonusTime() << endl;
+					cout << "Score: " << snakeGame->GetScore() << " " << endl;
+					cout << "Bonus: " << snakeGame->GetBonusTime() << " " << endl;
 				}
 				deltaTime = 0.0f;
 			}
