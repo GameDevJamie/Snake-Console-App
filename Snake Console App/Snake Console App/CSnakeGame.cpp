@@ -179,6 +179,7 @@ void CSnakeGame::EnablePlayerInput()
 		switch (_getch())
 		{
 			case 'l':
+			case 'L':
 				m_AiMode = !m_AiMode;
 
 				if (!m_AiMode)
@@ -188,18 +189,22 @@ void CSnakeGame::EnablePlayerInput()
 				break;
 
 			case 'w':
+			case 'W':
 				if(!m_AiMode) this->SetSnakeDirection(EDirection::UP);
 				break;
 
 			case 's':
+			case 'S':
 				if (!m_AiMode) this->SetSnakeDirection(EDirection::DOWN);
 				break;
 
 			case 'a':
+			case 'A':
 				if (!m_AiMode) this->SetSnakeDirection(EDirection::LEFT);
 				break;
 
 			case 'd':
+			case 'D':
 				if (!m_AiMode) this->SetSnakeDirection(EDirection::RIGHT);
 				break;
 

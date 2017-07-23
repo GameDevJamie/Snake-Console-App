@@ -152,12 +152,14 @@ void LoadControls()
 	system("cls");
 
 	cout << "Controls:" << endl;
-	cout << "-Press the W Key or the Up Arrow Key to go UP" << endl;
-	cout << "-Press the S Key or the Down Arrow Key to go DOWN" << endl;
-	cout << "-Press the A Key or the Left Arrow Key to go LEFT" << endl;
-	cout << "-Press the D Key or the Right Arrow Key to go RIGHT" << endl;
+	cout << "-Press the W Key to move the snake UP" << endl;
+	cout << "-Press the S Key to move the snake DOWN" << endl;
+	cout << "-Press the A Key to move the snake LEFT" << endl;
+	cout << "-Press the D Key to move the snake RIGHT" << endl;
 	cout << endl;
 	cout << "-Press the 1-9 Keys to change the speed of the snake (9 being the fastest)" << endl;
+	cout << endl;
+	cout << "-Press the L Key to Enable/Disable AI Mode" << endl;
 	cout << endl;
 	cout << "-Press the Backspace Key to End the Game and then Press the Backspace Key again to Return to Level Select" << endl;
 	cout << endl;
